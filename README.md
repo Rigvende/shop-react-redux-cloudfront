@@ -1,6 +1,12 @@
-Links:
-  - to CloudFront URL (current): https://d3b78bct3mmyoz.cloudfront.net/
-  - to S3-website (403: Forbidden): http://toys-world-bucket.s3-website-eu-west-1.amazonaws.com/
+Links for autodeploy:
+
+to CloudFront URL (current): https://d3b78bct3mmyoz.cloudfront.net/
+to S3-website (403: Forbidden): http://toys-world-bucket.s3-website-eu-west-1.amazonaws.com/
+
+Links for manual deploy:
+
+to CloudFront URL (current): https://du1d81jw9b8sd.cloudfront.net/
+to S3-website (403: Forbidden): http://test-bucket-manually.s3-website-eu-west-1.amazonaws.com/
 
 
 
