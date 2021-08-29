@@ -37,9 +37,13 @@ export default function Products() {
   useEffect(() => {
     axios
       .get(`${API_PATHS.bff}/products/`)
-      .then(res => setProducts(res.data));
+      .then(res => setProducts(res.data.products))
+      .catch(err => {
+        console.log(err);
+        setProducts([]);
+      });
   }, [])
-
+  
   return (
     <Grid container spacing={4}>
       {products.map((product: Product, index: number) => (
