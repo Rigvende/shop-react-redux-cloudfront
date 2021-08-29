@@ -23,7 +23,15 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     homeLink: {
       color: 'white',
-      textDecoration: 'none'
+      textDecoration: 'none',
+      verticalAlign: 'miidle'
+    },
+    logoPointer: {
+      cursor: 'pointer',
+      marginRight: '10px',
+      verticalAlign: 'middle',
+      width: '45px',
+      height: '45px'
     }
   }),
 );
@@ -46,6 +54,7 @@ export default function Header() {
     <AppBar position="relative">
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
+          <img src="/logo64.png" alt='logo' className={classes.logoPointer} />
           <Link className={classes.homeLink} to="/">Toys World!</Link>
         </Typography>
 
