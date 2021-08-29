@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme: Theme) =>
     homeLink: {
       color: 'white',
       textDecoration: 'none',
-      verticalAlign: 'miidle'
+      verticalAlign: 'middle'
     },
     logoPointer: {
       cursor: 'pointer',
