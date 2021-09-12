@@ -43,7 +43,7 @@ export default function Products() {
         setProducts([]);
       });
   }, [])
-  
+
   return (
     <Grid container spacing={4}>
       {products.map((product: Product, index: number) => (
@@ -51,7 +51,7 @@ export default function Products() {
           <Card className={classes.card}>
             <CardMedia
               className={classes.cardMedia}
-              image={product.url}
+              image={product.url || '/product-images/_default.png'}
               title={product.title}
             />
             <CardContent className={classes.cardContent}>
